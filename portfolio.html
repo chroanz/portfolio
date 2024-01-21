@@ -1,67 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Portfolio</title>
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="https://www.linkedin.com/in/chroanz/"> Linkedin </a>
-        <a href="https://github.com/Chroanz"> Github </a>
-        <a href="http://wa.me/5588996016403"> Whatsapp </a>
-        <a href="mailto:contrate.hans@gmail.com"> Email </a>
-      </nav>
-    </header>
-    <section class="presentation">
-      <div class="container">
-        <article class="presentation_article">
-          <h1 class="section_title">Hans Christian Alencar</h1>
-          <p>
-            Sou apaixonado por tecnologia desde criança e encontrei na
-            programação um amor gigantesco que me traz potência de viver.
-            Iniciei meus estudos em HTML, CSS e JavaScript em 2022 e meu amor
-            pela área só aumentou.
-          </p>
-          <p>
-            Ingressei na faculdade de Sistemas de Informação em 2023.1, onde
-            aprimoro a cada dia minhas habilidades.
-          </p>
-        </article>
-        <figure>
-          <a href="#"
-            ><img
-              class="profile_picture"
-              src="./img/356824917_2519398708211515_7085069355455389136_n.jpg"
-              alt=""
-          /></a>
-        </figure>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="https://www.linkedin.com/in/chroanz/"> Linkedin </a>
+      <a href="https://github.com/Chroanz"> Github </a>
+      <a href="http://wa.me/5588996016403"> Whatsapp </a>
+      <a href="mailto:contrate.hans@gmail.com"> Email </a>
+    </nav>
+  </header>
+  <section class="presentation">
+    <div class="presentation-text">
+      <h1 class="section_title">Hans Christian Alencar</h1>
+      <h2 class="section_subtitle">Desenvolvedor Frontend</h2>
+      <p>
+        Sou interessado por tecnologia desde criança e encontrei na
+        programação uma paixão.
+        Iniciei meus estudos em HTML, CSS e JavaScript em 2022 e atualmente estou aprofundando meus conhecimentos no
+        framework React.
+      </p>
+      <p>
+        Ingressei na faculdade de Sistemas de Informação em 2023.1, onde
+        aprimoro a cada dia minhas habilidades.
+      </p>
+    </div>
+    <figure>
+      <a href="#"><img class="profile_picture" src="./img/356824917_2519398708211515_7085069355455389136_n.jpg"
+          alt="" /></a>
+    </figure>
+  </section>
+  <section class="projects">
+    <div class="container">
+      <h1 class="section_title">Projetos</h1>
+      <div class="cards_aligned">
+        <a class="card" href="https://pokemongo-pi.vercel.app/">
+          <h3>Cópia Pokemon Go</h3>
+          <p>Cópia do site oficial do Pokemon Go</p>
+        </a>
+        <a class="card" href="https://hemsut.vercel.app/">
+          <h3>Hemsut</h3>
+          <p>Design feito por Emmanuel Soares</p>
+        </a>
+        <a class="card" href="https://decodificador-two.vercel.app/">
+          <h3>Decodificador</h3>
+          <p>Projeto realizado no curso Oracle One</p>
+        </a>
       </div>
-    </section>
-    <section class="technologies">
-      <div class="container">
-        <article class="tech_article">
-          <h1 class="section_title">Linguagens</h1>
-          <div class="cards_aligned">
-            <div class="card">
-              <h3>JavaScript</h3>
-              <p></p>
-            </div>
-            <div class="card">
-              <h3>Python</h3>
-              <p></p>
-            </div>
-            <div class="card">
-              <h3>C</h3>
-              <p></p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-    <footer></footer>
-  </body>
+    </div>
+  </section>
+  <footer></footer>
+</body>
+
 </html>
